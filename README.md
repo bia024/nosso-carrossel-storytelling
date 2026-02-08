@@ -38,10 +38,10 @@ Este repositório é o resultado prático da sprint de alinhamento:
 
 ```bash
 # Clone o repositório
-git clone [Link do seu repositório]
+git clone [https://github.com/bia024/nosso-carrossel-storytelling.git](https://github.com/bia024/nosso-carrossel-storytelling)
 
 # Entre na pasta
-cd [Nome da pasta]
+cd nosso-carousel-storytelling
 
 # Instale as dependências
 npm install
