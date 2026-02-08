@@ -1,16 +1,57 @@
-# React + Vite
+# 🚀 Storytelling de Workflow: Sprint de Alinhamento GitFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Case de Liderança Técnica e Cultura de Engenharia**
 
-Currently, two official plugins are available:
+Este projeto documenta e materializa, em formato de aplicação React, o processo de mentoria e padronização de workflow realizado entre a Tech Lead, o Product Owner e o time de Frontend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Acesse o Projeto:** 
 
-## React Compiler
+## 📌 O Desafio e a Solução
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O objetivo foi transformar o alinhamento técnico (muitas vezes abstrato) em um produto visual tangível. Utilizamos esta aplicação para validar na prática a metodologia **GitFlow**, servindo simultaneamente como:
+1.  **Documentação Viva:** Um guia visual das etapas de desenvolvimento.
+2.  **Prova de Conceito (PoC):** O próprio código do projeto segue as regras de governança de Pull Requests e Branching Strategy ensinadas.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   **React.js:** Biblioteca principal para construção da interface.
+*   **Styled Components:** CSS-in-JS para estilização moderna, responsiva e modular.
+*   **Vercel:** Deployment e CI/CD.
+
+## 🏗️ Estrutura do Projeto
+
+A aplicação foi construída focando em componentização e medidas relativas (`rem`, `%`, `vh`), garantindo que o relatório seja acessível em qualquer dispositivo:
+
+*   **Container:** Centralização e controle de largura máxima (`max-width`) para Desktop.
+*   **SlideImage:** Uso de `object-fit: contain` para manter a proporção visual dos prints do Discord/GitHub sem distorção.
+*   **Content:** Tipografia fluida com `clamp()` para ajuste automático entre mobile e desktop.
+
+## 📈 Metodologia Aplicada (GitFlow)
+
+Este repositório é o resultado prático da sprint de alinhamento:
+
+*   🛡️ **Main/Develop:** Ambientes protegidos para garantir a integridade do código.
+*   🌿 **Feature Branches:** Desenvolvimento isolado e focado (ex: `feat/hero`).
+*   ✅ **Code Review & Governança:** Validação técnica da Tech Lead e aprovação de negócio do PO antes do merge.
+
+## 🚀 Como Rodar o Projeto
+
+```bash
+# Clone o repositório
+git clone [Link do seu repositório]
+
+# Entre na pasta
+cd [Nome da pasta]
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npm run dev
+```
+
+## 👤 Equipe e Contribuições
+
+*   **Bianca Caetano** - Tech Lead (Liderança Técnica e Mentoria)
+*   **Victor de Souza** - Product Owner (Validação e Sandbox)
+*   **Israel** - Frontend Developer (Treinamento e Implementação)
