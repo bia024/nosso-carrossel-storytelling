@@ -4,7 +4,7 @@
 
 Este projeto documenta e materializa, em formato de aplicação React, o processo de mentoria e padronização de workflow realizado entre a Tech Lead, o Product Owner e o time de Frontend.
 
-🔗 **Acesse o Projeto:** 
+🔗 **Acesse o Projeto:** [https://nosso-carrossel-storytelling.vercel.app/](https://nosso-carrossel-storytelling.vercel.app/)
 
 ## 📌 O Desafio e a Solução
 
